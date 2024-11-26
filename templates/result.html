@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card mt-5">
+    <div class="card-body">
+        <h5 class="card-title">Recomendaciones para {{ tipo_proyecto | capitalize }}</h5>
+        {% if recomendaciones %}
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Lenguajes:</strong> {{ recomendaciones.lenguajes | join(', ') }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Frameworks:</strong> {{ recomendaciones.frameworks | join(', ') }}
+                </li>
+                <li class="list-group-item">
+                    <strong>Librerías:</strong> {{ recomendaciones.librerias | join(', ') }}
+                </li>
+            </ul>
+        {% else %}
+            <p>No se encontraron recomendaciones para el tipo de proyecto seleccionado.</p>
+        {% endif %}
+        <a href="/" class="btn btn-secondary mt-3">Volver</a>
+    </div>
+</div>
+{% endblock %}
