@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #072e33, #294d61); /* Color de fondo general */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(168, 59, 59, 0.1); /* Sombra en la barra de navegación */
+}
+
+/* Sidebar principal */
+aside {
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px;
+    background-color: linear-gradient(to bottom, #072e33, #294d61);
+}
+
+/* Sidebar derecho */
+aside h5 {
+    color: #ffffff; /* Color de título de las novedades */
+    font-weight: bold;
+}
+
+/* Cards de novedades */
+.card {
+    border: none; /* Eliminar bordes */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Sombra */
+    border-radius: 8px; /* Bordes redondeados */
+    background: linear-gradient(to bottom, #072e33, #294d61);
+    color: aliceblue;
+}
+
+/* Contenido principal */
+main {
+    border: 1px solid linear-gradient(to bottom, #072e33, #294d61);  /* Añade un borde */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: linear-gradient(to bottom, #072e33, #294d61); /* Fondo blanco */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Footer */
+footer {
+    background-color: #294d61;
+    font-size: 14px;
+    color: #f0f0f0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Links */
+.nav-link {
+    color: #ffffff; /* Color azul de enlaces */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Azul más oscuro al pasar el cursor */
+
+}
+
+/* Clases personalizadas */
+.sidebar-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar-link {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}

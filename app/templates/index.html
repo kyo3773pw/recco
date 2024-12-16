@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - RECCO{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <!-- Proyectos de nivel Principiante -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{{ url_for('static', filename='images/chess.png') }}" class="card-img-top" alt="Chess Game" style="width: 100%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Chess Game - JS</h5>
+                    <p class="card-text">Un juego de ajedrez interactivo desarrollado en JavaScript. Ideal para iniciarse en la programación web.</p>
+                    <p><strong>Framework: </strong>JavaScript puro</p>
+                    <p><strong>Librerías: </strong>none</p>
+                    <a href="/proyecto/chess-game" class="btn btn-primary">Ver más detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyectos de nivel Intermedio -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{{ url_for('static', filename='images/chatbot.png') }}" class="card-img-top" alt="Chatbot Application" style="width: 100%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">Chatbot Application</h5>
+                    <p class="card-text">Una aplicación de chatbot utilizando IA para responder preguntas comunes de usuarios.</p>
+                    <p><strong>Framework: </strong>React</p>
+                    <p><strong>Librerías: </strong>TensorFlow.js, Dialogflow</p>
+                    <a href="/proyecto/chatbot" class="btn btn-primary">Ver más detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyectos de nivel Avanzado -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{{ url_for('static', filename='images/e-commerce.png') }}" class="card-img-top" alt="e-commerce" style="width: 100%; height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">E-Commerce Application</h5>
+                    <p class="card-text">Una completa aplicación de comercio electrónico con funcionalidad para gestionar productos, pagos y usuarios.</p>
+                    <p><strong>Framework: </strong>Vue.js, Node.js</p>
+                    <p><strong>Librerías: </strong>Vuex, Axios, Express, Stripe API</p>
+                    <a href="/proyecto/e-commerce" class="btn btn-primary">Ver más detalles</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

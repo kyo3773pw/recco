@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4" style="color: aliceblue;">
+    <h1 class="mb-4">Historial</h1>
+
+    <!-- Sección de Consultas Realizadas -->
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            Consultas Realizadas
+        </div>
+        <div class="card-body">
+            <ul class="list-group" id="consulta-list">
+                <!-- Ejemplo de elemento -->
+                <li class="list-group-item">
+                    <div>
+                        <strong>Descripción:</strong> Aplicación móvil para análisis de datos.
+                        <br>
+                        <strong>Fecha:</strong> 2024-12-12
+                    </div>
+                </li>
+                <!-- Más elementos se añadirán dinámicamente -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Sección de Proyectos Guardados -->
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            Proyectos Guardados
+        </div>
+        <div class="card-body">
+            <ul class="list-group" id="proyectos-guardados">
+                <!-- Ejemplo de proyecto guardado -->
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span>
+                            <strong>Proyecto:</strong> Chess Game con JS
+                            <br>
+                            <strong>Fecha:</strong> 2024-12-11
+                        </span>
+                        <button class="btn btn-danger btn-sm" onclick="eliminarGuardado(this)">
+                            Eliminar
+                        </button>
+                    </div>
+                </li>
+                <!-- Más elementos se añadirán dinámicamente -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Función para eliminar un proyecto guardado
+    function eliminarGuardado(btn) {
+        const item = btn.closest('li');
+        item.remove();
+    }
+
+    // Ejemplo: Datos dinámicos que podrían cargarse desde el backend
+    const consultas = [
+        { descripcion: "Aplicación móvil para red social", fecha: "2024-12-10" },
+        { descripcion: "Plataforma de e-commerce", fecha: "2024-12-11" },
+    ];
+
+    const guardados = [
+        { proyecto: "Chatbot Application", fecha: "2024-12-09" },
+        { proyecto: "E-commerce Application", fecha: "2024-12-10" },
+    ];
+
+    // Renderizar Consultas
+    const consultaList = document.getElementById('consulta-list');
+    consultas.forEach(consulta => {
+        const li = document.createElement('li');
+        li.className = "list-group-item";
+        li.innerHTML = `
+            <div>
+                <strong>Descripción:</strong> ${consulta.descripcion}
+                <br>
+                <strong>Fecha:</strong> ${consulta.fecha}
+            </div>
+        `;
+        consultaList.appendChild(li);
+    });
+
+    // Renderizar Proyectos Guardados
+    const proyectosGuardados = document.getElementById('proyectos-guardados');
+    guardados.forEach(proyecto => {
+        const li = document.createElement('li');
+        li.className = "list-group-item";
+        li.innerHTML = `
+            <div class="d-flex justify-content-between align-items-center">
+                <span>
+                    <strong>Proyecto:</strong> ${proyecto.proyecto}
+                    <br>
+                    <strong>Fecha:</strong> ${proyecto.fecha}
+                </span>
+                <button class="btn btn-danger btn-sm" onclick="eliminarGuardado(this)">
+                    Eliminar
+                </button>
+            </div>
+        `;
+        proyectosGuardados.appendChild(li);
+    });
+</script>
+{% endblock %}

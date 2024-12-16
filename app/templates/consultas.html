@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block title %}Consultas - RECCO{% endblock %}
+
+{% block content %}
+<style>
+    .sty-cont {
+        background: linear-gradient(to bottom, #072e33, #294d61);
+        /* Degradado atractivo */
+        border-radius: 12px;
+        /* Bordes redondeados */
+        padding: 20px;
+        /* Espaciado interno */
+        color: white;
+        /* Texto blanco */
+        text-align: center;
+        /* Centrar texto */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Sombra suave */
+        margin-top: 20px;
+        /* Espaciado superior */
+    }
+
+    /* Estilo del título */
+    .title {
+        font-size: 2rem;
+        /* Tamaño grande del texto */
+        font-weight: bold;
+        /* Texto en negrita */
+        margin-bottom: 10px;
+        /* Separación del texto inferior */
+        text-transform: uppercase;
+        /* Texto en mayúsculas */
+    }
+
+    /* Estilo del párrafo */
+    .descripcion {
+        font-size: 1rem;
+        /* Tamaño del texto del párrafo */
+        line-height: 1.5;
+        /* Espaciado entre líneas */
+        margin-bottom: 0;
+        /* Eliminar márgenes inferiores */
+    }
+
+    /* Agregar una animación de hover al contenedor (opcional) */
+    .sty-cont:hover {
+        transform: scale(1.02);
+        /* Ampliar ligeramente */
+        transition: transform 0.3s ease-in-out;
+    }
+</style>
+<div class="container sty-cont">
+    <h2 class="mt-4 title">CONSULTA PARA TU PROYECTO</h2>
+    <p class="description">Introduce una descripción de tu proyecto, y nuestro sistema te recomendará el mejor lenguaje,
+        framework y
+        librerías.</p>
+
+    <!-- Formulario -->
+    <form id="consulta-form" method="POST" action="/consultar">
+        <div class="form-group mb-3">
+            <label for="descripcion" class="form-label">Descripción del Proyecto</label>
+            <textarea class="form-control" id="descripcion" name="descripcion" rows="4"
+                placeholder="Ejemplo: Quiero desarrollar un sistema de gestión de inventarios con interfaz web y base de datos..."
+                required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+    </form>
+
+    <!-- Espacio para mostrar la recomendación -->
+    {% if resultado %}
+    <div id="resultado-recomendacion" class="mt-4">
+        <h4>Recomendación:</h4>
+        <ul>
+            <li><strong>Lenguaje:</strong> {{ resultado['lenguaje'] }}</li>
+            <li><strong>Framework:</strong> {{ resultado['framework'] }}</li>
+            <li><strong>Librerías:</strong> {{ resultado['librerias'] }}</li>
+        </ul>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

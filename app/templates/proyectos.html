@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4" style="color: aliceblue;">
+    <h1 class="mb-4">Lista de Proyectos</h1>
+
+    <!-- Sección de Proyectos Fáciles -->
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            Proyectos Fáciles
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                {% for proyecto in proyectos['fácil'] %}
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span>{{ proyecto.nombre }}</span>
+                        <span class="badge badge-info">{{ proyecto.nivel }}</span>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Sección de Proyectos Intermedios -->
+    <div class="card mb-4">
+        <div class="card-header bg-warning text-white">
+            Proyectos Intermedios
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                {% for proyecto in proyectos['intermedio'] %}
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span>{{ proyecto.nombre }}</span>
+                        <span class="badge badge-info">{{ proyecto.nivel }}</span>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Sección de Proyectos Avanzados -->
+    <div class="card">
+        <div class="card-header bg-danger text-white">
+            Proyectos Avanzados
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                {% for proyecto in proyectos['avanzado'] %}
+                <li class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span>{{ proyecto.nombre }}</span>
+                        <span class="badge badge-info">{{ proyecto.nivel }}</span>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
