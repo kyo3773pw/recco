@@ -15,7 +15,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">RECCO</a>
                 <div class="d-flex">
-                    <a href="/logout" class="btn btn-outline-light">Logout</a>
+                    <a href="#" class="btn btn-outline-light" id="logoutButton" onclick="handleLogout(event)">Logout</a>
                 </div>
             </div>
         </nav>
@@ -78,5 +78,38 @@
     
         <!-- Bootstrap JS Bundle -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            async function handleLogout(e) {
+                e.preventDefault();
+                try {
+                    const response = await fetch('/api/users/logout', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+            
+                    if (response.ok) {
+                        // Limpiar localStorage independientemente de la respuesta del servidor
+                        localStorage.removeItem('session_id');
+                        localStorage.removeItem('user_id');
+                        console.log('Logout successful');
+                        window.location.href = '/';
+                    } else {
+                        console.error('Logout failed');
+                        // Redireccionar de todas formas
+                        localStorage.removeItem('session_id');
+                        localStorage.removeItem('user_id');
+                        window.location.href = '/';
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    // En caso de error, también limpiar y redireccionar
+                    localStorage.removeItem('session_id');
+                    localStorage.removeItem('user_id');
+                    window.location.href = '/';
+                }
+            }
+            </script>
     </body>
 </html>

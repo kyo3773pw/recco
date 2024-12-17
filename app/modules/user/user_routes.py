@@ -1,7 +1,9 @@
 from flask import Blueprint, request, jsonify, session
 from .user_controller import UserController
-from middleware.auth_middleware import login_required
+from .user_model import User
+from ..middleware.auth_middleware import login_required
 import logging
+ 
 
 logger = logging.getLogger(__name__)
 user_bp = Blueprint('user', __name__)
@@ -46,16 +48,25 @@ def login():
         return jsonify({"error": "Internal server error"}), 500
 
 @user_bp.route('/logout', methods=['POST'])
-@login_required
 def logout():
     try:
-        user_id = session.get('user_id')
+        # Obtener el session_id
+        session_id = request.headers.get('X-Session-Id')
+        
+        if session_id:
+            # Crear una instancia del modelo de usuario
+            user_model = User()
+            # Revocar la sesión
+            user_model.revoke_session(session_id)
+        
+        # Limpiar la sesión de Flask
         session.clear()
-        logger.info(f"User {user_id} logged out")
+        logger.info("Logout successful")
         return jsonify({"message": "Logout successful"}), 200
+        
     except Exception as e:
-        logger.error(f"Error in logout: {e}")
-        return jsonify({"error": "Internal server error"}), 500
+        logger.error(f"Error in logout: {str(e)}")
+        return jsonify({"error": str(e)}), 500
 
 @user_bp.route('/profile/<int:user_id>', methods=['GET'])
 @login_required
