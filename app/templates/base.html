@@ -110,6 +110,20 @@
                     window.location.href = '/';
                 }
             }
+            // En base.html, actualiza/añade la verificación de autenticación
+            function checkAuth() {
+                const sessionId = localStorage.getItem('session_id');
+                const userId = localStorage.getItem('user_id');
+                const currentPath = window.location.pathname;
+                
+                // Solo redirigir si está en una página protegida sin autenticación
+                if ((!sessionId || !userId) && 
+                    currentPath !== '/' && 
+                    currentPath !== '/login' && 
+                    currentPath !== '/register') {
+                    window.location.href = '/';
+                }
+            }
             </script>
     </body>
 </html>

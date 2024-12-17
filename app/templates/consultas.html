@@ -3,6 +3,7 @@
 {% block title %}Consultas - RECCO{% endblock %}
 
 {% block content %}
+
 <style>
     .sty-cont {
         background: linear-gradient(to bottom, #072e33, #294d61);
@@ -50,11 +51,11 @@
         transition: transform 0.3s ease-in-out;
     }
 </style>
+
 <div class="container sty-cont">
     <h2 class="mt-4 title">CONSULTA PARA TU PROYECTO</h2>
     <p class="description">Introduce una descripción de tu proyecto, y nuestro sistema te recomendará el mejor lenguaje,
-        framework y
-        librerías.</p>
+        framework y librerías.</p>
 
     <!-- Formulario -->
     <form id="consulta-form" method="POST" action="/consultar">
@@ -70,12 +71,27 @@
     <!-- Espacio para mostrar la recomendación -->
     {% if resultado %}
     <div id="resultado-recomendacion" class="mt-4">
-        <h4>Recomendación:</h4>
-        <ul>
-            <li><strong>Lenguaje:</strong> {{ resultado['lenguaje'] }}</li>
-            <li><strong>Framework:</strong> {{ resultado['framework'] }}</li>
-            <li><strong>Librerías:</strong> {{ resultado['librerias'] }}</li>
+        <h4>Palabras clave detectadas:</h4>
+        <ul class="list-group mb-3">
+            <li class="list-group-item">Tipo de aplicación: {{ keywords.tipo_app }}</li>
+            <li class="list-group-item">Plataforma: {{ keywords.plataforma }}</li>
+            <li class="list-group-item">Objetivo: {{ keywords.objetivo }}</li>
         </ul>
+
+        <h4>Recomendación basada en tu descripción:</h4>
+        <div class="card">
+            <div class="card-body">
+                <p><strong>Lenguajes recomendados:</strong> {{ resultado.lenguaje }}</p>
+                <p><strong>Frameworks recomendados:</strong> {{ resultado.framework }}</p>
+                <p><strong>Librerías recomendadas:</strong> {{ resultado.librerias }}</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if error %}
+    <div class="alert alert-danger mt-3">
+        {{ error }}
     </div>
     {% endif %}
 </div>
