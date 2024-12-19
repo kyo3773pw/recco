@@ -8765,3 +8765,1570 @@
 2024-12-17 16:06:38,303 - root - INFO - Request: GET /static/css/styles.css
 2024-12-17 16:06:38,305 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 16:06:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 2024-12-17 16:06:38,305 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 16:06:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:09:29,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-17 18:09:29,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-17 18:09:29,627 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 18:09:29,627 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 18:09:29,654 - werkzeug - INFO -  * Restarting with stat
+2024-12-17 18:09:29,654 - werkzeug - INFO -  * Restarting with stat
+2024-12-17 18:09:58,018 - werkzeug - WARNING -  * Debugger is active!
+2024-12-17 18:09:58,018 - werkzeug - WARNING -  * Debugger is active!
+2024-12-17 18:09:58,113 - werkzeug - INFO -  * Debugger PIN: 204-100-825
+2024-12-17 18:09:58,113 - werkzeug - INFO -  * Debugger PIN: 204-100-825
+2024-12-17 18:09:58,377 - root - INFO - Request: GET /
+2024-12-17 18:09:58,377 - root - INFO - Request: GET /
+2024-12-17 18:09:58,540 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:09:58] "GET / HTTP/1.1" 200 -
+2024-12-17 18:09:58,540 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:09:58] "GET / HTTP/1.1" 200 -
+2024-12-17 18:09:58,909 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:09:58,909 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:09:59,353 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:09:59,353 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:09:59,454 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:09:59,454 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:09:59,471 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:09:59,471 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:09:59,483 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:09:59] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:09:59,483 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:09:59] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:00,159 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:00] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:00,159 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:00] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:00,349 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:00] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:00,349 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:00] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:00,932 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:00,932 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:00,950 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:00] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:00,950 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:00] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:01,099 - root - INFO - Request: GET /
+2024-12-17 18:10:01,099 - root - INFO - Request: GET /
+2024-12-17 18:10:01,114 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:01] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:01,114 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:01] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:01,728 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:01,728 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:01,781 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:01,796 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:01] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:01,781 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:01,796 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:01] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:01,872 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:01,898 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:01] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:01,872 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:01,898 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:01] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:01,945 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:01,945 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:02,329 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:02] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:02,329 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:02] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:02,343 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:02,343 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:02,362 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:02] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:02,362 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:02] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:02,468 - root - INFO - Request: GET /
+2024-12-17 18:10:02,468 - root - INFO - Request: GET /
+2024-12-17 18:10:02,549 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:02] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:02,549 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:02] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:02,989 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:02,999 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:02,989 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:03,019 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:02,999 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:03,029 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,019 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:03,029 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,038 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:03,038 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:03,044 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,074 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:03,044 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,074 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:03,343 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:03,343 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:03,368 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:03,368 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:03,454 - root - INFO - Request: GET /
+2024-12-17 18:10:03,454 - root - INFO - Request: GET /
+2024-12-17 18:10:03,466 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:03,466 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:03,671 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:03,671 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:03,683 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:03,694 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:03,683 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:03,694 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:03,706 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,722 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,729 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:03,706 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,722 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:03,729 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:03,774 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:03,774 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:03,850 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:03,850 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:03,861 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:03,861 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:03,879 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:03,879 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:03] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:03,991 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:03,991 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:04,002 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:04,002 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:04,094 - root - INFO - Request: GET /
+2024-12-17 18:10:04,094 - root - INFO - Request: GET /
+2024-12-17 18:10:04,110 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:04,110 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:04,465 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:04,478 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:04,465 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:04,489 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:04,478 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:04,489 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:04,504 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:04,509 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:04,504 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:04,509 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:04,513 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:04,529 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:04,513 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:04,529 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:04,963 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:04,963 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:04,981 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:04,981 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:05,083 - root - INFO - Request: GET /
+2024-12-17 18:10:05,083 - root - INFO - Request: GET /
+2024-12-17 18:10:05,095 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:05,095 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:05,320 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:05,329 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:05,320 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:05,339 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:05,329 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:05,339 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:05,353 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:05,360 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:05,365 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:05,353 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:05,360 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:05,365 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:05,396 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:05,396 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:05,642 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:05,642 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:05,652 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:05,652 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:05,671 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:05,671 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:05,743 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:05,743 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:05,762 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:05,762 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:05] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:06,195 - root - INFO - Request: GET /
+2024-12-17 18:10:06,195 - root - INFO - Request: GET /
+2024-12-17 18:10:06,242 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:06] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:06,242 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:06] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:09,878 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:09,878 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:09,909 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:09,909 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:09,915 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:09] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:09,919 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:09,915 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:09] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:09,925 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:09,919 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:09,925 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:09,939 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:09] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:09,939 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:09] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:09,943 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:09] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:09,943 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:09] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:11,324 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:11,324 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:11,417 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:11,417 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:11,588 - root - INFO - Request: GET /
+2024-12-17 18:10:11,588 - root - INFO - Request: GET /
+2024-12-17 18:10:11,598 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:11,598 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:11,786 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:11,786 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:11,860 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:11,860 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:11,869 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:11,877 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:11,869 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:11,877 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:11,892 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:11,902 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:11,892 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:11,902 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:11,920 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:11,920 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:11] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:12,317 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:12,317 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:12,325 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:12,325 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:12,359 - root - INFO - Request: GET /
+2024-12-17 18:10:12,359 - root - INFO - Request: GET /
+2024-12-17 18:10:12,379 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:12,379 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:12,533 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:12,539 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:12,533 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:12,539 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:12,555 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:12,562 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:12,555 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:12,567 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:12,562 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:12,572 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:12,567 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:12,572 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:12,591 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:12,591 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:12,677 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:12,677 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:12,690 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:12,690 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:12,704 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:12,704 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:12,786 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:12,786 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:12,791 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:12,791 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:12,834 - root - INFO - Request: GET /
+2024-12-17 18:10:12,834 - root - INFO - Request: GET /
+2024-12-17 18:10:12,847 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:12,847 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:12] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:12,980 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:12,980 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:13,012 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:13,021 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:13,012 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:13,026 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,021 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:13,026 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,045 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,045 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,056 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:13,056 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:13,084 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:13,084 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:13,191 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:13,191 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:13,196 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:13,196 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:13,224 - root - INFO - Request: GET /
+2024-12-17 18:10:13,224 - root - INFO - Request: GET /
+2024-12-17 18:10:13,239 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:13,239 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:13,336 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:13,336 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:13,343 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:13,343 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:13,351 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:13,359 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,351 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:13,362 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,359 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,367 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:13,362 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:13,367 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:13,379 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:13,379 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:13,457 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:13,457 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:13,487 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:13,487 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:13,495 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:13,495 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:13] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:17,361 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:17,361 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:17,361 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:17,361 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:17,638 - root - INFO - Request: GET /
+2024-12-17 18:10:17,638 - root - INFO - Request: GET /
+2024-12-17 18:10:17,646 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:17,646 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:17,789 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:17,793 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:17,789 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:17,793 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:17,799 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:17,799 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:17,799 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:17,806 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:17,799 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:17,806 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:17,808 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:17,810 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:17,808 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:17,810 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:17] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,044 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:18,044 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:18,051 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:18,051 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:18,069 - root - INFO - Request: GET /
+2024-12-17 18:10:18,069 - root - INFO - Request: GET /
+2024-12-17 18:10:18,069 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:18,069 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:18,319 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:18,319 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:18,319 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:18,327 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:18,319 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:18,327 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,327 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:18,334 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,327 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,334 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:18,334 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,334 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:18,342 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:18,342 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:18,543 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:18,543 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:18,559 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:18,559 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:18,591 - root - INFO - Request: GET /
+2024-12-17 18:10:18,591 - root - INFO - Request: GET /
+2024-12-17 18:10:18,601 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:18,601 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:18,746 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:18,746 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:18,748 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:18,754 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:18,748 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:18,758 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,754 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:18,758 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,764 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:18,764 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:18,765 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,770 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:18,765 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:18,770 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:18,899 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:18,899 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:18,904 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:18,904 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:18] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,050 - root - INFO - Request: GET /
+2024-12-17 18:10:19,050 - root - INFO - Request: GET /
+2024-12-17 18:10:19,054 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,054 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,141 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,141 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,145 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,148 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,145 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,151 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,148 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,151 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,151 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,151 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,151 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,151 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,259 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,259 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,263 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,263 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,292 - root - INFO - Request: GET /
+2024-12-17 18:10:19,292 - root - INFO - Request: GET /
+2024-12-17 18:10:19,299 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,299 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,361 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,366 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,361 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,366 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,371 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,371 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,375 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,377 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,375 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,377 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,377 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,377 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,384 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,384 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,441 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,441 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,441 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,441 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,482 - root - INFO - Request: GET /
+2024-12-17 18:10:19,482 - root - INFO - Request: GET /
+2024-12-17 18:10:19,491 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,491 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,569 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,573 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,569 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,573 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,573 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,573 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,573 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,573 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,581 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,581 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,581 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,581 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,581 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,581 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,655 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,655 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,657 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,657 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,674 - root - INFO - Request: GET /
+2024-12-17 18:10:19,674 - root - INFO - Request: GET /
+2024-12-17 18:10:19,674 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,674 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,720 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,720 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,720 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,728 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,720 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,728 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,728 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,728 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,728 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,736 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,728 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,736 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,745 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,745 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,766 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,766 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:19,771 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,771 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:19,835 - root - INFO - Request: GET /
+2024-12-17 18:10:19,835 - root - INFO - Request: GET /
+2024-12-17 18:10:19,840 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,840 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:19,927 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,927 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:19,927 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,927 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:19,935 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,938 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,935 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:19,938 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,943 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,942 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:19,943 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:19,943 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:19,943 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:19] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,003 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,003 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,010 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,010 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,027 - root - INFO - Request: GET /
+2024-12-17 18:10:20,027 - root - INFO - Request: GET /
+2024-12-17 18:10:20,033 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,033 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,082 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,086 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,082 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,092 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,086 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,092 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,096 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,096 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,096 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,099 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,096 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,099 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,103 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,103 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,132 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,132 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,136 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,136 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,165 - root - INFO - Request: GET /
+2024-12-17 18:10:20,165 - root - INFO - Request: GET /
+2024-12-17 18:10:20,171 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,171 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,274 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,274 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,280 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,280 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,282 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,282 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,282 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,290 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,282 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,290 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,290 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,290 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,290 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,290 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,358 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,358 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,358 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,358 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,376 - root - INFO - Request: GET /
+2024-12-17 18:10:20,376 - root - INFO - Request: GET /
+2024-12-17 18:10:20,380 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,380 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,462 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,462 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,462 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,462 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,462 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,472 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,462 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,472 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,472 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,480 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,472 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,480 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,484 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,484 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,561 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,561 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,570 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,570 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,607 - root - INFO - Request: GET /
+2024-12-17 18:10:20,607 - root - INFO - Request: GET /
+2024-12-17 18:10:20,612 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,612 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,671 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,671 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:20,676 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,676 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,676 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:20,685 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,676 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:20,685 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,688 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,689 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,688 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:20,692 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,689 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:20,692 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:20,767 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,767 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:20,767 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,767 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:20,791 - root - INFO - Request: GET /
+2024-12-17 18:10:20,791 - root - INFO - Request: GET /
+2024-12-17 18:10:20,801 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:20,801 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:26,728 - root - INFO - Request: GET /
+2024-12-17 18:10:26,728 - root - INFO - Request: GET /
+2024-12-17 18:10:26,731 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:26,731 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:26,776 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:26,776 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:26,777 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:26,777 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:26,777 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:26,777 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:26,785 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,785 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:26,785 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,785 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,785 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:26,793 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:26,785 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,793 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:26,837 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:26,837 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:26,837 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:26,837 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:26,859 - root - INFO - Request: GET /
+2024-12-17 18:10:26,859 - root - INFO - Request: GET /
+2024-12-17 18:10:26,863 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:26,863 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:26,897 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:26,897 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:26,900 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:26,900 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:26,900 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:26,900 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:26,908 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,908 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,911 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,911 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:26,911 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:26,911 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:26,916 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:26,916 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:26,953 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:26,953 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:26,954 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:26,954 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:26,969 - root - INFO - Request: GET /
+2024-12-17 18:10:26,969 - root - INFO - Request: GET /
+2024-12-17 18:10:26,974 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:26,974 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:27,000 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:27,000 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:27,000 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:27,000 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:27,008 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:27,008 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:27,012 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,014 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,012 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,014 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,014 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:27,014 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:27,014 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:27,014 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:27,038 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:27,038 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:27,038 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:27,038 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:27,063 - root - INFO - Request: GET /
+2024-12-17 18:10:27,063 - root - INFO - Request: GET /
+2024-12-17 18:10:27,063 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:27,063 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:10:27,098 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:27,098 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:27,098 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:10:27,098 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:27,104 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:27,108 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,104 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:10:27,108 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,108 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:27,108 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:10:27,112 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,112 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:27,112 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:27,112 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:10:27,129 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:27,129 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:27,129 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:27,129 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:27] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-12-17 18:10:32,674 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:10:32,674 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:10:34,364 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:10:34,364 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:10:36,784 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:36] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:10:36,784 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:36] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:10:38,436 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:38] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:10:38,436 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:38] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:10:59,083 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:10:59,083 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:10:59,610 - modules.user.user_routes - INFO - User Jorge logged in successfully
+2024-12-17 18:10:59,610 - modules.user.user_routes - INFO - User Jorge logged in successfully
+2024-12-17 18:10:59,619 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "POST /api/users/login HTTP/1.1" 200 -
+2024-12-17 18:10:59,619 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "POST /api/users/login HTTP/1.1" 200 -
+2024-12-17 18:10:59,651 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:59,651 - root - INFO - Request: GET /dashboard
+2024-12-17 18:10:59,720 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "GET /dashboard HTTP/1.1" 200 -
+2024-12-17 18:10:59,720 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "GET /dashboard HTTP/1.1" 200 -
+2024-12-17 18:10:59,773 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:10:59,773 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:59,773 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:10:59,773 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:10:59,782 - root - INFO - Request: GET /static/images/e-commerce.png
+2024-12-17 18:10:59,782 - root - INFO - Request: GET /static/images/e-commerce.png
+2024-12-17 18:10:59,782 - root - INFO - Request: GET /static/images/chatbot.png
+2024-12-17 18:10:59,782 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:59,782 - root - INFO - Request: GET /static/images/chatbot.png
+2024-12-17 18:10:59,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:59,782 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:10:59,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/images/e-commerce.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:59,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:59,798 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/images/chatbot.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:59,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/images/e-commerce.png HTTP/1.1[0m" 304 -
+2024-12-17 18:10:59,798 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:10:59] "[36mGET /static/images/chatbot.png HTTP/1.1[0m" 304 -
+2024-12-17 18:11:00,156 - root - INFO - Request: GET /favicon.ico
+2024-12-17 18:11:00,156 - root - INFO - Request: GET /favicon.ico
+2024-12-17 18:11:00,156 - root - ERROR - Page not found: http://127.0.0.1:5000/favicon.ico
+2024-12-17 18:11:00,156 - root - ERROR - Page not found: http://127.0.0.1:5000/favicon.ico
+2024-12-17 18:11:00,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 18:11:00,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 18:11:05,131 - root - INFO - Request: GET /consultas
+2024-12-17 18:11:05,131 - root - INFO - Request: GET /consultas
+2024-12-17 18:11:05,167 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:05] "GET /consultas HTTP/1.1" 200 -
+2024-12-17 18:11:05,167 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:05] "GET /consultas HTTP/1.1" 200 -
+2024-12-17 18:11:05,220 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:05,220 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:05,224 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:11:05,224 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,640 - root - INFO - Request: GET /
+2024-12-17 18:11:06,640 - root - INFO - Request: GET /
+2024-12-17 18:11:06,644 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-17 18:11:06,644 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[32mGET / HTTP/1.1[0m" 302 -
+2024-12-17 18:11:06,657 - root - INFO - Request: GET /dashboard
+2024-12-17 18:11:06,657 - root - INFO - Request: GET /dashboard
+2024-12-17 18:11:06,657 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "GET /dashboard HTTP/1.1" 200 -
+2024-12-17 18:11:06,657 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "GET /dashboard HTTP/1.1" 200 -
+2024-12-17 18:11:06,708 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:06,708 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:06,713 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:11:06,713 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:11:06,713 - root - INFO - Request: GET /static/images/chatbot.png
+2024-12-17 18:11:06,713 - root - INFO - Request: GET /static/images/e-commerce.png
+2024-12-17 18:11:06,713 - root - INFO - Request: GET /static/images/chatbot.png
+2024-12-17 18:11:06,722 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,713 - root - INFO - Request: GET /static/images/e-commerce.png
+2024-12-17 18:11:06,722 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,722 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,730 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/images/chatbot.png HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,722 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,730 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/images/e-commerce.png HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,730 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/images/chatbot.png HTTP/1.1[0m" 304 -
+2024-12-17 18:11:06,730 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:06] "[36mGET /static/images/e-commerce.png HTTP/1.1[0m" 304 -
+2024-12-17 18:11:07,871 - root - INFO - Request: GET /consultas
+2024-12-17 18:11:07,871 - root - INFO - Request: GET /consultas
+2024-12-17 18:11:07,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:07] "GET /consultas HTTP/1.1" 200 -
+2024-12-17 18:11:07,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:07] "GET /consultas HTTP/1.1" 200 -
+2024-12-17 18:11:07,917 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:07,917 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:07,917 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:11:07,917 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:11:38,375 - root - INFO - Request: POST /consultar
+2024-12-17 18:11:38,375 - root - INFO - Request: POST /consultar
+2024-12-17 18:11:38,538 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:38] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:11:38,538 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:38] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:11:38,685 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:38,685 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:11:38,694 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:11:38,694 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:11:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:34,433 - root - INFO - Request: POST /consultar
+2024-12-17 18:12:34,433 - root - INFO - Request: POST /consultar
+2024-12-17 18:12:34,498 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:34] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:12:34,498 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:34] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:12:34,539 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:12:34,539 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:12:34,539 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:34,539 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:49,636 - root - INFO - Request: POST /consultar
+2024-12-17 18:12:49,636 - root - INFO - Request: POST /consultar
+2024-12-17 18:12:49,698 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:49] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:12:49,698 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:49] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:12:49,784 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:12:49,784 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:12:49,792 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:49,792 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:54,774 - root - INFO - Request: POST /api/users/logout
+2024-12-17 18:12:54,774 - root - INFO - Request: POST /api/users/logout
+2024-12-17 18:12:54,777 - modules.user.user_routes - INFO - Logout successful
+2024-12-17 18:12:54,777 - modules.user.user_routes - INFO - Logout successful
+2024-12-17 18:12:54,777 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "POST /api/users/logout HTTP/1.1" 200 -
+2024-12-17 18:12:54,777 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "POST /api/users/logout HTTP/1.1" 200 -
+2024-12-17 18:12:54,804 - root - INFO - Request: GET /
+2024-12-17 18:12:54,804 - root - INFO - Request: GET /
+2024-12-17 18:12:54,808 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "GET / HTTP/1.1" 200 -
+2024-12-17 18:12:54,808 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "GET / HTTP/1.1" 200 -
+2024-12-17 18:12:54,832 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:12:54,832 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:12:54,832 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:12:54,838 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:12:54,832 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:12:54,838 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:12:54,838 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:54,838 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:54,838 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:12:54,838 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:12:54,838 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:12:54,838 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:12:54,852 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:12:54,852 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:54] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:12:57,768 - root - INFO - Request: GET /
+2024-12-17 18:12:57,768 - root - INFO - Request: GET /
+2024-12-17 18:12:57,771 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "GET / HTTP/1.1" 200 -
+2024-12-17 18:12:57,771 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "GET / HTTP/1.1" 200 -
+2024-12-17 18:12:57,801 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:12:57,801 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:12:57,804 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:12:57,809 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:12:57,804 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:12:57,809 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:12:57,809 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:57,809 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:12:57,809 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:12:57,809 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:12:57,809 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:12:57,809 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:12:57,817 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:12:57,817 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:57] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:12:59,986 - root - INFO - Request: GET /
+2024-12-17 18:12:59,986 - root - INFO - Request: GET /
+2024-12-17 18:12:59,992 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:59] "GET / HTTP/1.1" 200 -
+2024-12-17 18:12:59,992 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:12:59] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:00,025 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:00,032 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:00,025 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:00,035 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:00,032 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:00,035 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:00,035 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:00] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:00,035 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:00] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:00,040 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:00,040 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:00] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:00,040 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:00,040 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:00] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:00,040 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:00] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:00,040 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:00] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:06,536 - root - INFO - Request: GET /
+2024-12-17 18:13:06,536 - root - INFO - Request: GET /
+2024-12-17 18:13:06,536 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:06,536 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:06,568 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:06,568 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:06,572 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:06,572 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:06,572 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:06,578 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:06,572 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:06,578 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:06,578 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:06,578 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:06,578 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:06,578 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:06,583 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:06,583 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:06] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:18,122 - root - INFO - Request: GET /
+2024-12-17 18:13:18,122 - root - INFO - Request: GET /
+2024-12-17 18:13:18,136 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:18,136 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:18,940 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:18,940 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:18,943 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:18,945 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:18,947 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:18,947 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:18,945 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:18,947 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:18,947 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:18,952 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:18,952 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:18,953 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:18,953 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:18] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:19,471 - root - INFO - Request: GET /favicon.ico
+2024-12-17 18:13:19,471 - root - INFO - Request: GET /favicon.ico
+2024-12-17 18:13:19,477 - root - ERROR - Page not found: http://127.0.0.1:5000/favicon.ico
+2024-12-17 18:13:19,477 - root - ERROR - Page not found: http://127.0.0.1:5000/favicon.ico
+2024-12-17 18:13:19,483 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 18:13:19,483 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 18:13:25,438 - root - INFO - Request: GET /
+2024-12-17 18:13:25,438 - root - INFO - Request: GET /
+2024-12-17 18:13:25,438 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:25,438 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:25,461 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:25,461 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:25,461 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:25,469 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:25,461 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:25,471 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:25,469 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:25,471 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:25,471 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:25,471 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:25,471 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:25,471 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:25,477 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:25,477 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:25,486 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:25,486 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:25,486 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:25,486 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:25,494 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:25,494 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:25] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:26,733 - root - INFO - Request: GET /
+2024-12-17 18:13:26,733 - root - INFO - Request: GET /
+2024-12-17 18:13:26,741 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:26,741 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:26,774 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:26,774 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:26,782 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:26,782 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:26,782 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:26,782 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,782 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:26,782 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,790 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:26,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,790 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:26,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:26,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,790 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:26,897 - root - INFO - Request: GET /
+2024-12-17 18:13:26,897 - root - INFO - Request: GET /
+2024-12-17 18:13:26,897 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:26,897 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:26,924 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:26,927 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:26,924 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:26,930 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:26,927 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:26,930 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:26,930 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,930 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:26,930 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,930 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,930 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:26,930 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:26,930 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:26,930 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:26,949 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:26,949 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:26,956 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:26,956 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:26,956 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:26,956 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:26] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,011 - root - INFO - Request: GET /
+2024-12-17 18:13:27,011 - root - INFO - Request: GET /
+2024-12-17 18:13:27,011 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,011 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,044 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,044 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,046 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,046 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,057 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,057 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,060 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,060 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,060 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,060 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,060 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,060 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,066 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,066 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,165 - root - INFO - Request: GET /
+2024-12-17 18:13:27,165 - root - INFO - Request: GET /
+2024-12-17 18:13:27,165 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,165 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,230 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,239 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,230 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,241 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,239 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,272 - root - INFO - Request: GET /
+2024-12-17 18:13:27,241 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,280 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,272 - root - INFO - Request: GET /
+2024-12-17 18:13:27,280 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,280 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,283 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,280 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,286 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,283 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,289 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,286 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,289 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,381 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,381 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,385 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,385 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,385 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,385 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,390 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,394 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,390 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,395 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,394 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,402 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,395 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,402 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,411 - root - INFO - Request: GET /
+2024-12-17 18:13:27,411 - root - INFO - Request: GET /
+2024-12-17 18:13:27,418 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,418 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,488 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,488 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,491 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,491 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,491 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,491 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,491 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,491 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,500 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,500 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,500 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,500 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,500 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,500 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,540 - root - INFO - Request: GET /
+2024-12-17 18:13:27,540 - root - INFO - Request: GET /
+2024-12-17 18:13:27,548 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,548 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "GET / HTTP/1.1" 200 -
+2024-12-17 18:13:27,580 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,588 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,580 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:13:27,588 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:27,588 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,596 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,588 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,596 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,596 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,596 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,596 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,596 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,596 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:27,596 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,628 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,628 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:13:27,628 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,628 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:13:27,628 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:27,628 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:27] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:13:31,992 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:13:31,992 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:13:33,340 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:13:33,340 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:13:36,050 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:36] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:13:36,050 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:36] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:13:37,393 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:37] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:13:37,393 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:37] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024-12-17 18:13:41,380 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:13:41,380 - root - INFO - Request: POST /api/users/login
+2024-12-17 18:13:41,743 - modules.user.user_routes - INFO - User Jorge logged in successfully
+2024-12-17 18:13:41,743 - modules.user.user_routes - INFO - User Jorge logged in successfully
+2024-12-17 18:13:41,753 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "POST /api/users/login HTTP/1.1" 200 -
+2024-12-17 18:13:41,753 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "POST /api/users/login HTTP/1.1" 200 -
+2024-12-17 18:13:41,802 - root - INFO - Request: GET /dashboard
+2024-12-17 18:13:41,802 - root - INFO - Request: GET /dashboard
+2024-12-17 18:13:41,802 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "GET /dashboard HTTP/1.1" 200 -
+2024-12-17 18:13:41,802 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "GET /dashboard HTTP/1.1" 200 -
+2024-12-17 18:13:41,873 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:13:41,873 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:13:41,873 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:41,873 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:13:41,873 - root - INFO - Request: GET /static/images/chatbot.png
+2024-12-17 18:13:41,882 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:41,873 - root - INFO - Request: GET /static/images/chatbot.png
+2024-12-17 18:13:41,882 - root - INFO - Request: GET /static/images/e-commerce.png
+2024-12-17 18:13:41,882 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:41,888 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:41,882 - root - INFO - Request: GET /static/images/e-commerce.png
+2024-12-17 18:13:41,890 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/images/chatbot.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:41,888 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:41,890 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/images/chatbot.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:41,890 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/images/e-commerce.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:41,890 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:41] "[36mGET /static/images/e-commerce.png HTTP/1.1[0m" 304 -
+2024-12-17 18:13:43,222 - root - INFO - Request: GET /consultas
+2024-12-17 18:13:43,222 - root - INFO - Request: GET /consultas
+2024-12-17 18:13:43,226 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:43] "GET /consultas HTTP/1.1" 200 -
+2024-12-17 18:13:43,226 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:43] "GET /consultas HTTP/1.1" 200 -
+2024-12-17 18:13:43,267 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:13:43,267 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:13:43,272 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:13:43,272 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:13:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:14:19,812 - root - INFO - Request: POST /consultar
+2024-12-17 18:14:19,812 - root - INFO - Request: POST /consultar
+2024-12-17 18:14:19,867 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:14:19] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:14:19,867 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:14:19] "POST /consultar HTTP/1.1" 200 -
+2024-12-17 18:14:19,918 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:14:19,918 - root - INFO - Request: GET /static/css/styles.css
+2024-12-17 18:14:19,925 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:14:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:14:19,925 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:14:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-17 18:15:53,737 - root - INFO - Request: POST /api/users/logout
+2024-12-17 18:15:53,737 - root - INFO - Request: POST /api/users/logout
+2024-12-17 18:15:53,740 - modules.user.user_routes - INFO - Logout successful
+2024-12-17 18:15:53,740 - modules.user.user_routes - INFO - Logout successful
+2024-12-17 18:15:53,741 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "POST /api/users/logout HTTP/1.1" 200 -
+2024-12-17 18:15:53,741 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "POST /api/users/logout HTTP/1.1" 200 -
+2024-12-17 18:15:53,770 - root - INFO - Request: GET /
+2024-12-17 18:15:53,770 - root - INFO - Request: GET /
+2024-12-17 18:15:53,779 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "GET / HTTP/1.1" 200 -
+2024-12-17 18:15:53,779 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "GET / HTTP/1.1" 200 -
+2024-12-17 18:15:53,837 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:15:53,845 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:15:53,837 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:15:53,846 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:15:53,845 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:15:53,846 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:15:53,854 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:15:53,854 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:15:53,854 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:15:53,854 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:15:53,854 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:15:53,861 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:15:53,854 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:15:53,861 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:15:53,911 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:15:53,911 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:15:53,911 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:15:53,911 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:15:53,920 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:15:53,920 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:15:53] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:03,310 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-17 18:16:03,310 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-17 18:16:03,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 18:16:03,310 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-17 18:16:03,310 - werkzeug - INFO -  * Restarting with stat
+2024-12-17 18:16:03,310 - werkzeug - INFO -  * Restarting with stat
+2024-12-17 18:16:05,651 - werkzeug - WARNING -  * Debugger is active!
+2024-12-17 18:16:05,651 - werkzeug - WARNING -  * Debugger is active!
+2024-12-17 18:16:05,658 - werkzeug - INFO -  * Debugger PIN: 204-100-825
+2024-12-17 18:16:05,658 - werkzeug - INFO -  * Debugger PIN: 204-100-825
+2024-12-17 18:16:14,526 - root - INFO - Request: GET /
+2024-12-17 18:16:14,526 - root - INFO - Request: GET /
+2024-12-17 18:16:14,599 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:14] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:14,599 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:14] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:15,544 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:15,544 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:15,569 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:15,569 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:15,577 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:15,577 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:15,582 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:15,582 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:15,584 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:15] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:15,584 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:15] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:15,707 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:15] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:15,707 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:15] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:15,725 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:15] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:15,725 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:15] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:18,675 - root - INFO - Request: GET /favicon.ico
+2024-12-17 18:16:18,675 - root - INFO - Request: GET /favicon.ico
+2024-12-17 18:16:18,675 - root - ERROR - Page not found: http://127.0.0.1:5000/favicon.ico
+2024-12-17 18:16:18,675 - root - ERROR - Page not found: http://127.0.0.1:5000/favicon.ico
+2024-12-17 18:16:18,682 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 18:16:18,682 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-17 18:16:20,590 - root - INFO - Request: GET /
+2024-12-17 18:16:20,590 - root - INFO - Request: GET /
+2024-12-17 18:16:20,591 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:20,591 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:20,630 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:20,630 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:20,630 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:20,630 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:20,638 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:20,638 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:20,638 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:20,638 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:20,638 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:20,638 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:20,638 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:20,638 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:20,647 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:20,647 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:20] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,101 - root - INFO - Request: GET /
+2024-12-17 18:16:21,101 - root - INFO - Request: GET /
+2024-12-17 18:16:21,104 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,104 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,142 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,142 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,142 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,150 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,142 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,152 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,150 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,152 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,152 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,152 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,152 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,152 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,162 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,162 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,231 - root - INFO - Request: GET /
+2024-12-17 18:16:21,231 - root - INFO - Request: GET /
+2024-12-17 18:16:21,240 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,240 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,282 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,282 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,282 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,282 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,282 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,282 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,288 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,288 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,288 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,288 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,288 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,288 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,296 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,296 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,385 - root - INFO - Request: GET /
+2024-12-17 18:16:21,385 - root - INFO - Request: GET /
+2024-12-17 18:16:21,393 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,393 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,426 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,426 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,426 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,426 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,434 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,434 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,434 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,434 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,445 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,445 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,445 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,445 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,450 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,450 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,467 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,467 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,475 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,475 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,475 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,475 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,524 - root - INFO - Request: GET /
+2024-12-17 18:16:21,524 - root - INFO - Request: GET /
+2024-12-17 18:16:21,524 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,524 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,557 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,557 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,557 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,557 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,565 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,565 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,565 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,574 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,565 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,574 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,574 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,574 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,574 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,574 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,598 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,598 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,600 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,600 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,600 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,600 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,663 - root - INFO - Request: GET /
+2024-12-17 18:16:21,663 - root - INFO - Request: GET /
+2024-12-17 18:16:21,671 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,671 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,727 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,732 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,727 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,732 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,732 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,736 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,732 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,736 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,736 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,736 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,736 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,736 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,744 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,744 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,818 - root - INFO - Request: GET /
+2024-12-17 18:16:21,818 - root - INFO - Request: GET /
+2024-12-17 18:16:21,826 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,826 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,866 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,866 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,866 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,866 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:21,866 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,866 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:21,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,875 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,875 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:21,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,882 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,882 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:21,956 - root - INFO - Request: GET /
+2024-12-17 18:16:21,956 - root - INFO - Request: GET /
+2024-12-17 18:16:21,964 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,964 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:21,989 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,989 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:21,997 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:21,997 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:21] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,007 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,007 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,007 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,007 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,013 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,013 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,013 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,013 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,013 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,013 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,030 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,030 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,030 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,030 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,038 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,038 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,095 - root - INFO - Request: GET /
+2024-12-17 18:16:22,095 - root - INFO - Request: GET /
+2024-12-17 18:16:22,106 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,106 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,153 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,153 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,153 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,153 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,153 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,153 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,160 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,160 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,160 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,160 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,160 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,200 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,160 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,200 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,241 - root - INFO - Request: GET /
+2024-12-17 18:16:22,241 - root - INFO - Request: GET /
+2024-12-17 18:16:22,249 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,249 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,274 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,284 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,274 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,284 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,284 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,284 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,291 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,291 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,291 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,291 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,291 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,291 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,299 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,299 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,316 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,316 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,323 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,323 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,323 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,323 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,363 - root - INFO - Request: GET /
+2024-12-17 18:16:22,363 - root - INFO - Request: GET /
+2024-12-17 18:16:22,373 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,373 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,408 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,412 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,408 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,412 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,412 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,412 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,412 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,420 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,412 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,420 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,420 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,420 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,420 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,420 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,750 - root - INFO - Request: GET /
+2024-12-17 18:16:22,750 - root - INFO - Request: GET /
+2024-12-17 18:16:22,755 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,755 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,784 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,787 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,784 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,787 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,787 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,787 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,787 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,787 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,787 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,787 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,787 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,787 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,797 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,797 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,860 - root - INFO - Request: GET /
+2024-12-17 18:16:22,860 - root - INFO - Request: GET /
+2024-12-17 18:16:22,860 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,860 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,901 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,904 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,901 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:22,904 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,904 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:22,904 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:22,909 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,909 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,909 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,909 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,909 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:22,909 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:22,918 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,918 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:22,983 - root - INFO - Request: GET /
+2024-12-17 18:16:22,983 - root - INFO - Request: GET /
+2024-12-17 18:16:22,991 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:22,991 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:22] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,025 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,025 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,025 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,032 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,025 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,032 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,032 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,032 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,032 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,032 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,032 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,041 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,032 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,041 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,065 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,065 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,065 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,065 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,074 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,074 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,091 - root - INFO - Request: GET /
+2024-12-17 18:16:23,091 - root - INFO - Request: GET /
+2024-12-17 18:16:23,098 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,098 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,149 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,149 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,156 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,156 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,156 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,156 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,156 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,163 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,156 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,163 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,163 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,186 - root - INFO - Request: GET /
+2024-12-17 18:16:23,186 - root - INFO - Request: GET /
+2024-12-17 18:16:23,190 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,190 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,238 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,238 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,238 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,238 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,247 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,247 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,247 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,253 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,247 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,253 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,253 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,253 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,262 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,262 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,270 - root - INFO - Request: GET /
+2024-12-17 18:16:23,270 - root - INFO - Request: GET /
+2024-12-17 18:16:23,278 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,278 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,343 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,343 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,343 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,343 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,343 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,343 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,351 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,353 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,351 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,353 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,353 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,353 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,359 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,359 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,405 - root - INFO - Request: GET /
+2024-12-17 18:16:23,405 - root - INFO - Request: GET /
+2024-12-17 18:16:23,408 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,408 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,441 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,441 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,449 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,451 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,449 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,451 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,451 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,457 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,451 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,457 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,457 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,457 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,457 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,457 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,484 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,484 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,484 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,484 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,489 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,489 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,508 - root - INFO - Request: GET /
+2024-12-17 18:16:23,508 - root - INFO - Request: GET /
+2024-12-17 18:16:23,514 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,514 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,571 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,584 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,571 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,584 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,588 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,588 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,588 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,588 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,588 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,596 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,588 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,596 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,598 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,598 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,605 - root - INFO - Request: GET /
+2024-12-17 18:16:23,605 - root - INFO - Request: GET /
+2024-12-17 18:16:23,605 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,605 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,653 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,653 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,655 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,655 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,655 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,661 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,655 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,661 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,661 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,661 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,661 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,661 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,670 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,670 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,706 - root - INFO - Request: GET /
+2024-12-17 18:16:23,706 - root - INFO - Request: GET /
+2024-12-17 18:16:23,710 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,710 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,735 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,743 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,735 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,743 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,743 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,743 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,743 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,743 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,751 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,751 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,751 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,751 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,753 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,753 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,767 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,767 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,776 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,776 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,776 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,776 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,825 - root - INFO - Request: GET /
+2024-12-17 18:16:23,825 - root - INFO - Request: GET /
+2024-12-17 18:16:23,830 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,830 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,866 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,866 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,866 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,866 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,875 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,875 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,882 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,875 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,882 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,882 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/images/chess.png HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,882 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,885 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,885 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[33mGET /api/placeholder/400/200 HTTP/1.1[0m" 404 -
+2024-12-17 18:16:23,892 - root - INFO - Request: GET /
+2024-12-17 18:16:23,892 - root - INFO - Request: GET /
+2024-12-17 18:16:23,900 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,900 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "GET / HTTP/1.1" 200 -
+2024-12-17 18:16:23,955 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,958 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,955 - root - INFO - Request: GET /static/css/style-dashboard.css
+2024-12-17 18:16:23,958 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,958 - root - INFO - Request: GET /static/images/chess.png
+2024-12-17 18:16:23,958 - root - INFO - Request: GET /api/placeholder/400/200
+2024-12-17 18:16:23,964 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
+2024-12-17 18:16:23,964 - root - ERROR - Page not found: http://127.0.0.1:5000/api/placeholder/400/200
+2024-12-17 18:16:23,964 - werkzeug - INFO - 127.0.0.1 - - [17/Dec/2024 18:16:23] "[36mGET /static/css/style-dashboard.css HTTP/1.1[0m" 304 -
