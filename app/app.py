@@ -1,4 +1,4 @@
-from flask import Flask, session, request, jsonify, render_template, url_for, redirect
+from flask import Flask, session, request, jsonify, render_template, url_for, redirect, flash
 from modules.user.user_routes import user_bp
 from modules.utils.logger_config import setup_logger
 from datetime import timedelta
@@ -19,9 +19,15 @@ logger = setup_logger()
 def login_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        if 'user_id' not in session:
+        try:
+            if 'user_id' not in session:
+                logger.warning(f"Unauthorized access attempt to {request.path}")
+                flash('Por favor inicie sesión para acceder a esta página')
+                return redirect(url_for('index'))
+            return f(*args, **kwargs)
+        except Exception as e:
+            logger.error(f"Error in auth middleware: {str(e)}")
             return redirect(url_for('index'))
-        return f(*args, **kwargs)
     return decorated_function
 
 @app.route('/')
@@ -141,10 +147,16 @@ def not_found_error(error):
     logger.error(f'Page not found: {request.url}')
     return jsonify({"error": "Resource not found"}), 404
 
-@app.errorhandler(500)
-def internal_error(error):
-    logger.error(f'Server Error: {error}')
+@app.errorhandler(Exception)
+def handle_error(error):
+    logger.error(f"Error: {str(error)}")
     return jsonify({"error": "Internal server error"}), 500
+
+# Session cleanup on logout
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect(url_for('index'))
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
