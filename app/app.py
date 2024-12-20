@@ -152,11 +152,6 @@ def handle_error(error):
     logger.error(f"Error: {str(error)}")
     return jsonify({"error": "Internal server error"}), 500
 
-# Session cleanup on logout
-@app.route('/logout')
-def logout():
-    session.clear()
-    return redirect(url_for('index'))
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
